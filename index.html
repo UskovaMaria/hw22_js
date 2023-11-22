@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    
+    <form name="myForm">
+      <select name="tags">
+        <option value="div">div</option>
+        <option value="p">p</option>
+      </select>
+    </form>
+
+    <form name="myForm1">
+      <input type="tag" name="optionData">
+      <button type="button" name="createOption">Send</button>
+    </form>
+
+    <form name="myForm2">
+      <label>
+        class:
+        <input type="class" class="form__input" name="class">
+      </label>
+      <label>
+        content:
+        <input type="text" class="form__input" name="content">
+      </label>
+      <button type="submit" class="form__btn" name="createBtn">Create</button>
+    </form>
+
+    <div class="new__element"></div>
+
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

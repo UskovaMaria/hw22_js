@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+input,
+button {
+  display: block;
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+/* input:focus {
+  outline: none;
+} */
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+form,
+input {
+  margin-bottom: 20px;
+}
+
